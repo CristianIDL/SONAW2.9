@@ -1,0 +1,15 @@
+.homeContainer{
+    display: flex;
+    width: 100%;
+    background-color: #4B0928;
+}
+
+.homefeed{
+    display: flex;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: none;
+    background-color: #1E1E1E;
+}

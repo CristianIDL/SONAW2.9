@@ -1,0 +1,78 @@
+.bobAdminContainer{
+    display: flex;
+    width: 100%;
+    background-color: #4B0928;
+}
+
+.bobAdmin{
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    background-color: #1E1E1E;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background: #4b4747;
+    margin: 10px auto 0;
+    word-break: break-all;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+  }
+
+.drag-area{
+    background-color: rgb(58, 57, 55);
+    color: rgb(231, 227, 227);
+    border: 2px dashed #4B0928;
+    display: flex;
+    height: 400px;
+    width: 700px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.drag-area span{
+    font-size: 25px;
+    font-weight: 500;
+    color: #1E1E1E;
+}
+.drag-area input{
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    height: 400px;
+    width: 700px;
+    color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    margin: 20px;
+}
+.file-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: solid 1px #ddd;
+}
+
+.but{
+    background-color: rgb(158, 22, 56);;
+    align-content: center;
+    justify-content: center;
+    margin-top: 12px;
+    color: #fdfdfd;
+    border-radius: 10px;
+    border: 0;
+    height: 40px;
+    margin-left: 9px;
+}

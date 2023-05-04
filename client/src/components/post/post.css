@@ -1,0 +1,90 @@
+.post{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    margin: 30px 0;
+    background-color: #332E34;
+}
+
+.postWrapper{
+    padding: 10px;
+}
+
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postTopLeft{
+    display: flex; 
+}
+
+.postProfileImg{
+    width: 87px;
+    height: 87px;
+    border-radius: 50%
+}
+
+.postUsername{
+    font-size: 42px;
+    color: white;
+    margin: 0 40px;
+}
+
+.postDate{
+    font-size:20px;
+    color: white;
+    font-weight: normal;
+    color: #C0A8B4;  
+}
+
+
+.postAsunto{
+    font-size: large;
+    color: #C0A8B4;
+    font-weight: normal;
+    margin: 0 40px;
+}
+
+.postDescripcion{
+    font-size: x-large;
+    color: #ffffff;
+    font-weight: normal;
+    margin: 0 40px;
+    padding-left: 85px;
+    padding-top: 15px;
+}
+
+.postImg{
+    width: 100%;
+    max-height: 480px;
+    max-width: 920px;
+    padding-top: 20px;
+    padding-left: 125px;
+}
+
+.postBottom{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.postBottomRight{
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
+}
+
+.postBottomLeft{
+    align-items: center;
+    display: flex;
+    padding-left: 125px;
+    padding-top: 10px;
+}
+
+.postLikeCounter{
+    font-size: 20px;
+    color: white;
+}
